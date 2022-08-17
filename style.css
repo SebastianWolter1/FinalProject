@@ -6,6 +6,7 @@
     box-sizing: border-box;
     color: rgb(248, 252, 46);
     text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
     letter-spacing: 7px;
 }
 body{
@@ -27,7 +28,7 @@ body{
         100% {opacity: 0.95;}
 }
 p{
-    font-size: 1rem;
+    font-size: .9rem;
 }
 /* Header */
 .navbar{
@@ -37,9 +38,9 @@ p{
     justify-content: space-around;
     /* background-color: rgb(133, 133, 133); */
     font-style: italic;
-    position: fixed;
-    top: 30px;
-    left: 15%;
+    /* position: fixed; */
+    margin-top: 30px;
+    margin-left: 16%;
     animation: opacity 4s infinite;
 }
 .navbar div{
@@ -50,6 +51,9 @@ h1, h2, h4{
 }
 h2{
     font-size: 1rem;
+    margin: 50px 0 0 0;
+}
+#main{
     margin: 400px 0 50px 0;
 }
 h4{
@@ -88,8 +92,11 @@ h4 a:hover{
     /* transform: rotate(-45deg); */
     position: fixed;
     top: 0;
-    margin: 70px 0 0 40px;
+    margin: 70px 0 0 60px;
     animation: logo 10s infinite linear;
+}
+.container:hover div{
+    background-color: rgba(147, 232, 255, 0.5);
 }
 @keyframes logo{
     0% {transform: rotate(0);}
@@ -137,7 +144,7 @@ h4 a:hover{
 /* MAIN: Cards */
 
 main{
-    margin-top: 250px;
+    margin-top: 50px;
 }
 section{
     margin-bottom: 300px;
@@ -148,18 +155,18 @@ section{
 .card {
     position: absolute;
     top: 30%;
-    left: 10%;
+    left: 15%;
     width: 200px;
     height: 200px;
   }
 .card2 {
-    left: 30%;
+    left: 35%;
 }
 .card3 {
-    left: 50%;
+    left: 55%;
 }
 .card4{
-    left: 70%;
+    left: 75%;
 }
   
   .content {
@@ -221,7 +228,18 @@ section{
     transition: background 2s;
     
 }
+/* Projects */
 
+.projects{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.projects div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
 
 /* Footer */
 .footer{
@@ -230,7 +248,7 @@ section{
     width: 100%;
     height: 40px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 10px;
     border-top: 2px solid;
     font-size: 1rem;
