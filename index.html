@@ -13,18 +13,19 @@
 <body>
     <header>
         <nav class="navbar">
-            <img style="border-radius: 50%;" src="./pics/Seb.jpg" alt="Seb">
+            <img src="./pics/Seb.jpg" alt="Seb">
             <div>
                 <h1>Sebastian Wolter</h1>
                 <h4>Web Developer |<a href="https://soundcloud.com/dachgeschoss-1" target="_blank" style="font-size: .7rem; text-decoration: none;" > Musician</a> | Foodlover</h4>
             </div>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-            </ul>
-            <ul>
-                <li><a href="">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="mailto:seb@techtakel.berlin">Contact</a></li>
+            </ul>
+            <ul class="top">
+                <li><a href="#top">Home</a></li>
+                
             </ul>
             
         </nav>
@@ -40,63 +41,77 @@
             <div class="item-9"></div>
             <div class="item-10"></div>
             <div class="item-11"></div>
+        
         </div>
     </header>
     <main>
         <section>
-            <p style="margin-bottom: 50px; text-align: center;"> Better coding makes the world a better place</p>
+            <div class="Lighting">
+                <div class="letter1">Better   </div>
+                <div class="letter2">Coding   </div>
+                <div class="letter3">Makes   </div>
+                <div class="letter4">The   </div>
+                <div class="letter5">World   </div>
+                <div class="letter6">A   </div>
+                <div class="letter7">Better   </div>
+                <div class="letter8">Place   </div>
+            </div>
             <div class="cards">
                 <div class="card">
                     <div class="content">
                     <div class="front">
-                        I want to
+                        Frontend
                     </div>
                     <div class="back">
-                        build Websites
+                        -html- <br>-css- <br> -Javascript-
                     </div>
                     </div>
                 </div>
                 <div class="card card2">
                     <div class="content">
                     <div class="front">
-                        I can
+                       frameworks
                     </div>
                     <div class="back">
-                        write HTML
+                        -bootstrap- <br>
+                        -scss- <br>
+                        -tailwind-
                     </div>
                     </div>
                 </div>
                 <div class="card card3">
                     <div class="content">
                     <div class="front">
-                        I also can
+                        Backend
                     </div>
                     <div class="back">
-                        write CSS
+                        - soon -
                     </div>
                     </div>
                 </div>
                 <div class="card card4">
                     <div class="content">
                     <div class="front">
-                        Do I
+                        other interests
                     </div>
                     <div class="back">
-                        have the job?
+                        -music- <br>
+                        -stock market-<br>
+                        -travelling-
                     </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <h2 id="main">About me and myself</h2>
+        <h2 id="about">About me and myself</h2>
         <div class="flex">
             <div>My first life was about studying politics and economy. <br> I got a degree:)</div>
             <div>My second life was about Djing and managing other artists. <br> That was great.</div>
-            <div>My third life is about Web Development and working for a fintech is my goal</div>
+            <div>My third life is about Web Development. Working for a fintech is my goal</div>
         </div>
 
-        <h2>Projects (Platzhalter)</h2>
+        <h2 id="projects">Projects (Platzhalter)</h2>
         <div class="projects">
             <div><img src="./pics/stones.jpg" alt=""></div>
             <div></div>
@@ -107,12 +122,34 @@
             <div></div>
             <div></div>
         </div>
+        <form id="contactform" name="contactform" action="">
+            <h2 id="contact">Contact Me</h2>
+            <div>
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name" placeholder="..."/>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="..." />
+              </div>
+            <div>
+              <label for="message">message:</label><br>
+              <textarea id="message" name="message" cols="25" rows="5" placeholder=" what do you want to know?"></textarea>
+            </div>
+            <br>
+            <div>
+              <button class="button">send</button>
+            </div>
+            </form>
+            <br>
     </main>
-
+ 
     <footer>
         <div class="footer">
             This is the Footer - All rights reserved by Nobody Inc.
         </div>
     </footer>
+    <br>
 </body>
 </html>
