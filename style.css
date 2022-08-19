@@ -264,8 +264,6 @@ div > .letter8{
   }
   
   .back {
-    background: rgba(147, 232, 255, 0.5);
-    color: rgb(248, 252, 46);
     transform: rotateY( 180deg );
   }
 
