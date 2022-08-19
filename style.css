@@ -89,6 +89,9 @@ h6 a i{
 h4 a:hover{
     color: rgba(147, 232, 255, 0.5);
 }
+.navbar div a i:hover{
+    transform:rotateX(180deg);
+}
 .top{
     position:fixed;
     right: 0;

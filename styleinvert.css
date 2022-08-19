@@ -89,6 +89,9 @@ h6 a i{
 h4 a:hover{
     color: var(--bluelightmain);
 }
+.navbar div a i:hover{
+    transform:rotateX(180deg);
+}
 .top{
     position:fixed;
     right: 0;
