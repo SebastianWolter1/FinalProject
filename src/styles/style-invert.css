@@ -1,9 +1,9 @@
 :root {
     --yellowmain:rgb(248, 252, 46);
-    --bluedarkmain:rgba(56, 161, 190, 0.5);
+    --bluedarkmain:rgba(1, 28, 87, 0.7);
     --bluedark:rgba(56, 161, 190);
-    --bluelightmain:rgba(147, 232, 255, 0.5);
-    --yellowlogo:rgb(248, 252, 46, 0.7);
+    --bluelightmain:rgba(149, 151, 255, 0.5);
+    --yellowlogo:rgba(248, 252, 46, 0.7);
 }
 *{
     padding: 0;
@@ -17,7 +17,7 @@
     letter-spacing: 7px;
 }
 body{
-    background:url(./pics/background-black-abstract-dark-backdrop-web.jpg);
+    background:url(../assets/images/background-black-abstract-dark-backdrop-web.jpg);
     background-color: var(--bluedarkmain);
     background-blend-mode:overlay;
     
@@ -87,7 +87,7 @@ h6 a i{
     font-size: 1.2rem;
 }
 h4 a:hover{
-    color: var(--bluelightmain)
+    color: var(--bluelightmain);
 }
 a i:hover{
     font-size: 1.8rem;
@@ -223,7 +223,7 @@ div > .word8{
     justify-content: space-evenly;
     margin: 50px 10vw;
     padding: 50px 0;
-    border-bottom: 2px solid; 
+    border-bottom: 2px solid;  
 }
 .card {
     width: 250px;
@@ -232,16 +232,16 @@ div > .word8{
     border-radius: 10%;
 }
 .content {
-    height: 100%;
     width: 100%;
+    height: 100%;
     transition: transform 3s;
     transform-style: preserve-3d;
-} 
+}
 .card:hover .content {
     transform: rotateY( 180deg ) ;
     transition: transform 1s;
     cursor: none;
-} 
+}
 .front, .back {
     position: absolute;
     height: 100%;
@@ -326,7 +326,7 @@ span {
       
 .carousel__face:nth-child(1) {
     transform: rotateY(0deg) translateZ(430px); 
-    background-image: url(./pics/Betterment.png);
+    background-image: url(../assets/images/Betterment.png);
 }
 .carousel__face:nth-child(2) { 
     box-shadow:inset 0 0 0 2000px var(--bluelightmain);
@@ -338,7 +338,7 @@ span {
 }
 .carousel__face:nth-child(4) {
     transform: rotateY(120deg) translateZ(430px); 
-    background-image: url(./pics/Stripe.png);
+    background-image: url(../assets/images/Stripe.png);
 }
 .carousel__face:nth-child(5) { 
     box-shadow:inset 0 0 0 2000px var(--bluelightmain);
@@ -350,7 +350,7 @@ span {
 }
 .carousel__face:nth-child(7) { 
     transform: rotateY(240deg) translateZ(430px); 
-    background-image: url(./pics/Coinbase.png);
+    background-image: url(../assets/images/Coinbase.png);
 }
 .carousel__face:nth-child(8) {
     box-shadow:inset 0 0 0 2000px var(--bluelightmain);
