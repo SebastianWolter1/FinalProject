@@ -283,7 +283,6 @@ div > .word8{
     border-radius: 10%;
     padding-top: 20px;
     line-height: 30px;
-    
 }
 .flex div:hover{
     background: var(--bluelightmain);
