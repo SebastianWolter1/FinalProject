@@ -1,6 +1,5 @@
 {
   "name": "FinalProject",
-  "homepage":"https://github.com/SebastianWolter1/Portfolio/settings/pages",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,5 +18,5 @@
   "bugs": {
     "url": "https://github.com/SebastianWolter1/FinalProject/issues"
   },
-  "homepage": "https://github.com/SebastianWolter1/FinalProject#readme"
+  "homepage": "https://github.com/SebastianWolter1/Portfolio"
 }

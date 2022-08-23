@@ -100,7 +100,7 @@ a i:hover{
 }
 /* Logo */
 
-.container{
+.logo{
     display: grid;
     grid-template-columns:repeat (7, 1fr);
     grid-template-rows:repeat(7, 1fr);
@@ -113,11 +113,11 @@ a i:hover{
     
     
 }
-.container:hover div{
+.logo:hover div{
     background-color: var(--yellowmain);
     animation: logo 7s linear .5;
 }
-.container:hover{
+.logo:hover{
     cursor: none;
 }
 @keyframes logo{
@@ -125,7 +125,7 @@ a i:hover{
     100% {transform: rotate(1turn);}
 }
 
-.container div{
+.logo div{
     background-color: var(--yellowlogo);
     border-radius: 1px;
 
@@ -465,7 +465,7 @@ label{
     }
 }
 @media screen and (max-width: 700px){
-    .container{
+    .logo{
         display: none;
     }
     #contactform input, textarea{
